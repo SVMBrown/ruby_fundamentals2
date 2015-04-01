@@ -6,3 +6,4 @@ print_my(grocery_list)
 grocery_list << "rice"
 puts "Almost forgot my rice!!"
 print_my(grocery_list)
+puts "I need to get #{grocery_list.length} items."
