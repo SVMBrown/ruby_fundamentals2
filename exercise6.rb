@@ -1,2 +1,8 @@
 grocery_list = ["apples", "peaches", "strawberries", "chicken", "milk"]
-grocery_list.each { |item| puts "* #{item}" }
+def print_my(list)
+    list.each { |item| puts "* #{item}"}
+end
+print_my(grocery_list)
+grocery_list << "rice"
+puts "Almost forgot my rice!!"
+print_my(grocery_list)
