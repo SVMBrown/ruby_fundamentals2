@@ -9,3 +9,5 @@ print_my(grocery_list)
 puts "I need to get #{grocery_list.length} items."
 puts "I #{grocery_list.index("bananas") ? "" : "don't "}need to pick up bananas today."
 puts "My second item is #{grocery_list[1]}."
+puts "I should probably plan my route through the store. Gotta sort my list!"
+print_my(grocery_list.sort!)
