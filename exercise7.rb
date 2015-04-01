@@ -7,3 +7,5 @@ def print_hash(hash)
     hash.each{ |k, v| puts "#{k}: #{v} students"}
 end
 print_hash(class_size)
+class_size[:cohort4] = 43
+print_hash(class_size)
