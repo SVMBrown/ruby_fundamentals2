@@ -12,3 +12,5 @@ print_hash(class_size)
 class_size.keys.each { |k| puts "#{k}" }
 class_size.each { |k, v| class_size[k] = (v * 1.05).to_i }
 print_hash(class_size)
+class_size.delete(:cohort2)
+print_hash(class_size)
