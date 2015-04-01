@@ -11,3 +11,6 @@ puts "I #{grocery_list.index("bananas") ? "" : "don't "}need to pick up bananas 
 puts "My second item is #{grocery_list[1]}."
 puts "I should probably plan my route through the store. Gotta sort my list!"
 print_my(grocery_list.sort!)
+puts "I can't find any strawberries... must be out of season."
+grocery_list.delete("strawberries")
+print_my(grocery_list)
